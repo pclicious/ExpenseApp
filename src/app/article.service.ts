@@ -10,7 +10,7 @@ import { Article } from './article';
 @Injectable()
 export class ArticleService {
     //URL for CRUD operations
-	articleUrl = "http://10.102.8.201:3002/cust";
+	articleUrl = "https://10.102.8.201:3002/cust";
 	//Create constructor to get Http instance
 	constructor(private http:Http) { 
 	}
